@@ -1,9 +1,5 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
-//-----------------------------------------------------------------------
-// </copyright>
-// <summary> Universal Root node for the Data driven project schema XAML. </summary>
-//-----------------------------------------------------------------------
 
 using System;
 using System.Collections.Generic;
@@ -13,7 +9,7 @@ using System.Windows.Markup;
 namespace Microsoft.Build.Framework.XamlTypes
 {
     /// <summary>
-    /// Serializatrion class for node for the Data driven project schema XAML
+    /// Serialization class for node for the Data driven project schema XAML
     /// </summary>
     [ContentProperty("Nodes")]
     public sealed class ProjectSchemaDefinitions : IProjectSchemaNode

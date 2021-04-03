@@ -1,9 +1,5 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
-//-----------------------------------------------------------------------
-// </copyright>
-// <summary> Rule class. </summary>
-//-----------------------------------------------------------------------
 
 using System;
 using System.Collections.Generic;
@@ -164,12 +160,12 @@ namespace Microsoft.Build.Framework.XamlTypes
         /// The prefix to use for all property switches in this <see cref="Rule"/> for the case when this property <see cref="Rule"/> represent a tool.
         /// </summary>
         /// <remarks>
-        /// The value specified can be overriden by the value specified by a child <see cref="BaseProperty"/>'s <see cref="BaseProperty.SwitchPrefix"/>.
+        /// The value specified can be overridden by the value specified by a child <see cref="BaseProperty"/>'s <see cref="BaseProperty.SwitchPrefix"/>.
         /// This field is optional and culture invariant.
         /// </remarks>
         /// <example>
         /// For the VC++ CL task, <c>WholeProgramOptimization</c> is a boolean parameter. It's switch is <c>GL</c> and its
-        /// switch prefix (inherited from the parent <see cref="Rule.SwitchPrefix"/> since it is not overriden by <c>WholeProgramOptimization</c>)
+        /// switch prefix (inherited from the parent <see cref="Rule.SwitchPrefix"/> since it is not overridden by <c>WholeProgramOptimization</c>)
         /// is <c>/</c>. Thus the complete switch in the command line for this property would be <c>/GL</c>
         /// </example>
         public string SwitchPrefix
@@ -182,7 +178,7 @@ namespace Microsoft.Build.Framework.XamlTypes
         /// The token used to separate a property switch from its value.
         /// </summary>
         /// <remarks>
-        /// The value specified here is overriden by the value specified by the child <see cref="BaseProperty"/>'s <see cref="BaseProperty.Separator"/>.
+        /// The value specified here is overridden by the value specified by the child <see cref="BaseProperty"/>'s <see cref="BaseProperty.Separator"/>.
         /// This field is optional and culture invariant.
         /// </remarks>
         /// <example>

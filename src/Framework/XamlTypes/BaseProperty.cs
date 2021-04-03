@@ -1,16 +1,11 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
-//-----------------------------------------------------------------------
-// </copyright>
-// <summary> Represents a Rule property. </summary>
-//-----------------------------------------------------------------------
 
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Windows.Markup;
-using System.Xml;
 
 namespace Microsoft.Build.Framework.XamlTypes
 {
@@ -262,7 +257,7 @@ namespace Microsoft.Build.Framework.XamlTypes
         /// </remarks>
         /// <example>
         /// For the VC++ CL task, <c>WholeProgramOptimization</c> is a boolean parameter. It's switch is <c>GL</c> and its
-        /// switch prefix (inherited from the parent <see cref="Rule.SwitchPrefix"/> since it is not overriden by <c>WholeProgramOptimization</c>)
+        /// switch prefix (inherited from the parent <see cref="Rule.SwitchPrefix"/> since it is not overridden by <c>WholeProgramOptimization</c>)
         /// is <c>/</c>. Thus the complete switch in the command line for this property would be <c>/GL</c>
         /// </example>
         public string SwitchPrefix

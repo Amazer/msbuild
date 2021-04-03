@@ -1,9 +1,5 @@
 ﻿// Copyright (c) Microsoft. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
-//-----------------------------------------------------------------------
-// </copyright>
-// <summary> serialization class for Content type data. </summary>
-//-----------------------------------------------------------------------
 
 using System;
 using System.Collections.Generic;
@@ -83,7 +79,7 @@ namespace Microsoft.Build.Framework.XamlTypes
         }
 
         /// <summary>
-        /// serializes content type's metadata. Accessable via IContentType.GetMetadata()
+        /// serializes content type's metadata. Accessible via IContentType.GetMetadata()
         /// </summary>
         [SuppressMessage("Microsoft.Naming", "CA1721:PropertyNamesShouldNotMatchGetMethods", Justification = "This has shipped in Framework, which is especially important to keep binary compatible, so we can't change it now")]
         [SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly", Justification = "This has shipped in Framework, which is especially important to keep binary compatible, so we can't change it now")]
